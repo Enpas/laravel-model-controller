@@ -1,0 +1,26 @@
+.container {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px rgb(80, 80, 80);
+  background-color: rgb(92, 245, 151);
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      flex-basis: calc(100% / 5);
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid black;
+      box-shadow: 1px 1px 3px 1px rgb(80, 80, 80);
+      background-color: rgb(49, 179, 255);
+      h2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
